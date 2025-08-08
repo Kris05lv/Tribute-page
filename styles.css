@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#title {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#img-div {
+    margin: 0 auto;
+    padding: 10px;
+    background: #f8f8f8;
+}
+
+/* Make image responsive and centered */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0;
+    color: #666;
+}
+
+#tribute-info {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin: 20px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
